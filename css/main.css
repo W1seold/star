@@ -28,3 +28,10 @@
     display: inline-block;
 }
 
+.col-md-12 {
+    width: 500px;
+}
+
+h6 {
+    width: 80px;
+}
