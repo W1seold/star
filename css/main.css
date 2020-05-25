@@ -1,0 +1,30 @@
+.profilepic {
+    width: 260px;
+    height: 260px;
+    background-image: url("../img/star.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin:0px;
+}
+
+.col-md-4 {
+    height: 260px;
+    width: 260px!important;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+
+.col-md-8 {
+    height: 260px;
+    width: 500px;
+    margin: 0px;
+    margin-left: 5px;
+    position: absolute;
+    display: inline-block;
+}
+
