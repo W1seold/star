@@ -1,3 +1,119 @@
 $(function(){
+    $("#antiraid").hide();
+    $("#moderacao").hide();
+    $("#registro").hide();
+    $("#defesas").hide();
+    $("#sistemas").hide();
+    $("#utils").hide();
+    $("#vips").hide();
+    $("#entretenimento").hide();
     
+
+      $("#bhome").click(function(){
+        $("#home").show();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bantiraid").click(function(){
+        $("#home").hide();
+        $("#antiraid").show();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bmoderacao").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").show();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bregistro").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").show();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bdefesa").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").show();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bsistemas").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").show();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#butils").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").show();
+        $("#vips").hide();
+        $("#entretenimento").hide();
+      });
+
+      $("#bvips").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").show();
+        $("#entretenimento").hide();
+      });
+
+      $("#bentretenimento").click(function(){
+        $("#home").hide();
+        $("#antiraid").hide();
+        $("#moderacao").hide();
+        $("#registro").hide();
+        $("#defesas").hide();
+        $("#sistemas").hide();
+        $("#utils").hide();
+        $("#vips").hide();
+        $("#entretenimento").show();
+      });
 });

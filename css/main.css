@@ -34,4 +34,67 @@
 
 h6 {
     width: 80px;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+body {
+    background: url("../img/bg.png")
+}
+
+li {
+    color: #fff;
+}
+
+#desc {
+    color: #fff;
+}
+
+#supbar {
+    height: 80px;
+    width: 100%!important;
+    background-color: black;
+    border-bottom: 2px solid gray;
+    padding: 0px;
+    margin: 0 none;
+}
+
+#supbar ul li:hover{
+    height: 72px;
+    border-bottom: 2px solid aqua;
+}
+
+#navbar {
+    height: 70px;
+    width: 100%;
+    float: left;
+    padding: none;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-right:30px;
+    height: 80px;
+    padding-top: 18px;
+}
+
+
+#navbar li button:hover {
+    color: aqua;
+}
+
+.mt-4 {
+    position: relative;
+}
+
+#supbar button {
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    /*border is optional*/
+    cursor: pointer;
 }
