@@ -116,4 +116,8 @@ $(function(){
         $("#vips").hide();
         $("#entretenimento").show();
       });
+
+      $('#binvite').click(function(){
+        window.location.href='https://discord.com/oauth2/authorize?client_id=689135782320931022&scope=bot&permissions=8';
+     })
 });
