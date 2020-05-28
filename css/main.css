@@ -58,7 +58,7 @@ li {
     width: 100%!important;
     background-color: black;
     border-bottom: 2px solid gray;
-    padding: 0px;
+    padding-right: 170px;
     margin: 0 none;
 }
 
@@ -78,7 +78,7 @@ li {
     display: inline-block;
     margin-right:30px;
     height: 80px;
-    padding-top: 18px;
+    padding-top: 19px;
 }
 
 
