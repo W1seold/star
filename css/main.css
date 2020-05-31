@@ -116,7 +116,7 @@ li {
 #binvite {
     color: #f2acbc;
     border-color: #f2acbc;
-    
+    ''
 }
 
 #binvite:hover {
@@ -124,4 +124,8 @@ li {
     border-color: #f2acbc;
     background-color: #f2acbc;
     
+}
+
+#nome {
+    width: 450px!important;
 }
