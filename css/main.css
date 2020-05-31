@@ -64,7 +64,7 @@ li {
 
 #supbar ul li:hover{
     height: 72px;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid #f2acbc;
 }
 
 #navbar {
@@ -83,7 +83,7 @@ li {
 
 
 #navbar li button:hover {
-    color: aqua;
+    color: #f2acbc;
 }
 
 .mt-4 {
@@ -97,4 +97,31 @@ li {
     padding:0!important;
     /*border is optional*/
     cursor: pointer;
+
+}
+
+#bvote {
+    color: #f2acbc;
+    border-color: #f2acbc;
+    
+}
+
+#bvote:hover {
+    color: black;
+    border-color: #f2acbc;
+    background-color: #f2acbc;
+    
+}
+
+#binvite {
+    color: #f2acbc;
+    border-color: #f2acbc;
+    
+}
+
+#binvite:hover {
+    color: black;
+    border-color: #f2acbc;
+    background-color: #f2acbc;
+    
 }
