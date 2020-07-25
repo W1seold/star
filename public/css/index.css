@@ -1,0 +1,176 @@
+.profilepic {
+    width: 260px;
+    height: 260px;
+    background-image: url("../img/star.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+}
+
+.col-md-4 {
+    height: 260px;
+    width: 260px!important;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+
+.col-md-8 {
+    height: 260px;
+    width: 500px;
+    margin: 0px;
+    margin-left: 5px;
+    position: absolute;
+    display: inline-block;
+}
+
+.col-md-12 {
+    width: 500px;
+}
+
+h3 {
+    color: #fff;
+}
+
+body {
+    background: url("../img/bg.png");
+    height: 637px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#desc {
+    color: #fff;
+}
+
+#supbar {
+    height: 80px;
+    width: 100%!important;
+    background-color: #000000;
+    /*border-bottom: 2px solid gray;*/
+    margin: 0 none;
+    box-shadow: 0px 3px #272626;
+}
+
+.mt-4 {
+    position: relative;
+}
+
+#bvote {
+    color: #f2acbc;
+    border-color: #f2acbc;
+}
+
+#bvote:hover {
+    color: black;
+    border-color: #f2acbc;
+    background-color: #f2acbc;
+}
+
+#binvite {
+    color: #f2acbc;
+    border-color: #f2acbc;
+}
+
+#binvite:hover {
+    color: black;
+    border-color: #f2acbc;
+    background-color: #f2acbc;
+}
+
+#nome {
+    width: 450px!important;
+}
+
+.screen-overlay {
+    height: 100%;
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(34, 34, 34, 0.6);
+    transition: opacity .2s linear, visibility .1s, width 1s ease-in;
+}
+
+.screen-overlay.show {
+    transition: opacity .5s ease, width 0s;
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+}
+
+.offcanvas {
+    width: 300px;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: all .2s;
+    border-radius: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1200;
+    background-color: #1d1f23;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+.offcanvas.show {
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform .2s;
+}
+
+.container-fluid {
+    padding-right: 0px!important;
+}
+
+aside header {
+    display: inline-block;
+    color: #1d1f23;
+}
+
+.navbar-brand span {
+    color: #fff;
+}
+
+header {
+    padding: 0px!important;
+}
+
+#showopt {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: Segoe UI;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+#listcmd p {
+    color: #fff;
+    display: flex;
+}
+
+#listcmd img {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    float: left;
+}
+
+#sidepanel a {
+    justify-content: center;
+    background-color: #1d1f23;
+    color: #fff;
+}
