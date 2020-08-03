@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Star Homepage</title>
+    <meta charset = "UTF-8"/>
+</head>
+
+<body>
+    <div class="row">
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark" id="supbar">
+                <div class="navbar-brand">
+                    <img src="img/badge.png" width=30px height=30px class="d-inline-block align-top" alt="" loading="lazy" style="margin-left:10px">
+                    <button data-trigger="#leftpanel" class="btn btn-primary" type="button" id = "showopt"> Star ✨ </button>
+                </div>
+                
+                <b class="screen-overlay"></b>
+
+                <!-- offcanvas panel -->
+                <aside class="offcanvas" id="leftpanel">
+                    <div class="row" style = "margin-left:10px">
+                    <div class="header" style="margin-top:25px; display:inline-block">
+                        <img src="img/badge.png" width=30px height=30px class="d-inline-block align-top" alt="" loading="lazy">
+                        <span style="margin-top:50px; padding-left:10px">Star ✨</span>
+                    </div>
+                    
+                        <button class="btn btn-outline-danger btn-close" style = "margin-top:20px; margin-left: 100px"> &times Close </button>
+                    </div>
+                    <hr style="background-color: #fff">
+                    <div class="row" style = "padding-left:15px">
+                        <nav class="list-group list-group-flush" id="sidepanel">
+                            <a href="index.php" class="list-group-item">Home</a>
+                            <a href="comandos.php" class="list-group-item">Comandos</a>
+                            <a href="#" class="list-group-item">Servidores</a>
+                        </nav>
+                    </div>
+                   
+                </aside>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container justify-content-center mt-4" id="home">
+        <!-- Profile Div -->
+        <div class="col-md-4">
+            <div class="row">
+                <div class="profilepic"></div>
+            </div>
+            <div class="row">
+                <div class="botoes text-center mt-2">
+                    <button type="button" class="btn btn-outline-info ml-5" id="binvite" href="https://discord.com/oauth2/authorize?client_id=689135782320931022&scope=bot&permissions=8">Invite</button>
+                    <button type="button" class="btn btn-outline-info ml-3 pl-3 pr-3" id="bvote">Vote</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8" id="nome">
+            <!-- Linha Nome -->
+            <div class="row">
+                <div class="status pl-3">
+                    Online
+                </div>
+            </div>
+            <div class="row pl-3">
+                <h3> Star ✨</h3>
+            </div>
+
+            <div class="row" id="tags">
+                <!-- Area Tags -->
+                <div class="col-md-12">
+                    <h6>Tags</h6>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Anti-Raid</li>
+                        <li class="list-inline-item">Moderation</li>
+                        <li class="list-inline-item">Music</li>
+                        <li class="list-inline-item">Miscelanious</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Area Descrição -->
+                <div class="col-md-12" id="desc">
+                    <p class=" text-justify">Um bot de moderação, focado na defesa de servidores, com features para moderação de servidores e sistemas própios.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+        
+</body>
+
+</html>
