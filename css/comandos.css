@@ -40,7 +40,7 @@ body {
     background: url("../img/bg.png");
     height: 300vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     
 }
 
